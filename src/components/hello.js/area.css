@@ -1,0 +1,20 @@
+.area {
+flex-basis: calc(50% - 20px);
+margin: 10px;
+cursor: pointer;
+}
+
+.area:hover {
+  opacity: 0.7;
+}
+
+.area-picture {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.area-title {
+margin-top: 10px;
+font-weight: bold;
+}
